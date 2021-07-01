@@ -26,7 +26,7 @@ public class ProjetPatientApplication implements CommandLineRunner{
 	public void run(String... args) throws Exception {
 		
 		patientRepository.save(new Patient(null, "Mohamed ", new Date(),20, false));
-		patientRepository.save(new Patient(null, "Oumaima     gi", new Date(),12, false));
+		patientRepository.save(new Patient(null, "Oumaima   ougga  gi", new Date(),12, false));
 		patientRepository.save(new Patient(null, "Fati",new Date(), 12, false));
 		
 		patientRepository.findAll().forEach(p->{
